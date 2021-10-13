@@ -1,0 +1,17 @@
+.bg-login {
+    background-color: $interact-600;
+    transition: ease 0.3s;
+}
+
+.bg-login:hover {
+    background-color: $interact;
+    color: $back;
+}
+
+.social-login {
+    transition: ease 0.3s;
+}
+
+.social-login:hover {
+    background-color: $back !important;
+}

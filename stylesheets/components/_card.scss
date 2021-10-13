@@ -1,0 +1,40 @@
+.card-header {
+    position: relative;
+}
+
+.item-tag {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    color: #fff;
+    font-size: 18px;
+    background: $tag;
+    opacity: 0.9;
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    padding: 10px 5px;
+}
+
+.far.fa-heart {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    font-size: 24px;
+}
+
+.far.fa-heart:hover {
+    font-weight: bold;
+}
+
+.far.fa-heart.fill {
+    font-weight: bold;
+}
+
+.card-body, .card-footer a, footer a {
+    font-size: $font-size-lg;
+    color: $content;
+}
+
+.card-footer a:hover {
+    background-color: #C3C3C3;
+}

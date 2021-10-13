@@ -1,0 +1,67 @@
+.line {
+    position: relative;
+}
+
+.line:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 0;
+    top: 50%;
+    height: 3px;
+    background: $tag;
+}
+
+.point {
+    position: relative;
+}
+
+.fas.fa-check {
+    font-size: 4px;
+}
+
+.cheak {
+    position: absolute;
+    content: "";
+    top: 18%;
+    left: 5%;
+}
+
+.point-active {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 3px solid $tag;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.point-none {
+    width: 20px;
+    height: 20px;
+    background: $content;
+    border: 3px solid $tag;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.point1 {
+    position: absolute;
+    content: "";
+    top: 33%;
+    left: 0;
+}
+
+.point2 {
+    position: absolute;
+    content: "";
+    top: 33%;
+    left: 48%;
+}
+
+.point3 {
+    position: absolute;
+    content: "";
+    top: 33%;
+    right: 0;
+}

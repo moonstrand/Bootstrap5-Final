@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    text-decoration: none !important;
+}
+
+input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.btn:focus,.btn:active, a:focus, a:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link:hover {
+    background-color: $back;
+    color: $content !important;
+}
+
+.nav-link.active {
+    color: $white;
+}
+
+.bg-cover {
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.top {
+    position: fixed;
+    opacity: 0.9;
+    right: 5%;
+    bottom: 4%;
+    z-index: 101;
+}
+
+.top:hover {
+    opacity: 0.7;
+}
+
+footer a:hover {
+    color: $content;
+    opacity: 0.8 !important;
+}
